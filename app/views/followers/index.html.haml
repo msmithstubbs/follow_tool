@@ -4,7 +4,9 @@
     %form
       .form-group
         %label{ for: 'handle' } Twitter handle
-        %input{ id: 'handle' }
+        .input-group.col-sm-3
+          .input-group-addon @
+          %input.form-control{ id: 'handle' }
       %button.btn-primary.btn
         Follow 
 
